@@ -4,7 +4,7 @@ import Control.Monad.Aff.AVar (AVAR ())
 import Control.Monad.Eff (Eff)
 import Control.Monad.Eff.Console (CONSOLE)
 import Control.Monad.Eff.Random (RANDOM ())
-import Prelude (Unit, bind)
+import Prelude (Unit, bind, discard)
 import Test.Unit.Console (TESTOUTPUT ())
 import Test.Unit.Main (runTest)
 

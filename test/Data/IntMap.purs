@@ -13,7 +13,7 @@ import Test.QuickCheck.Arbitrary (class Arbitrary, arbitrary)
 import Prelude (
   class Show, show
 , (+), (/=), ($), (#), (<$>), (<<<)
-, map, bind, const, eq, pure, not)
+, map, bind, discard, const, eq, pure, not)
 import Data.IntMap
 
 ex0 :: IntMap Int

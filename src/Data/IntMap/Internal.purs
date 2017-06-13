@@ -1,9 +1,11 @@
 
 module Data.IntMap.Internal where
 
+import Prelude hiding (max)
+
 import Data.Function.Uncurried (Fn2 (), runFn2)
 import Data.Int.Bits ((.^.), complement, (.&.), (.|.), zshr)
-import Prelude
+
 
 -- Newtypes
 ----------------------------------------------------------------------------
